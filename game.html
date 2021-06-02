@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.css" />
+    <title>Catch The Fruit</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Fruit</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>What is your "favorite" fruit?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Lemon</p>
+            <img src="/images/4-lemon-png-image.png" alt="Lemon">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Apple</p>
+            <img
+               src="images/16-red-apple-png-image.png"
+               alt="Apple"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Banana</p>
+            <img
+               src="images/8-banana-png-image.png"
+               alt="Banana"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Grapes</p>
+            <img
+               src="images/4-grape-png-image-download-picture.png"
+               alt="Grapes"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Are you annnoyed yet? <br>
+        You are playing an impossible game!!
+      </h5>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
